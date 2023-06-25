@@ -2,9 +2,9 @@ class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
 
-        int m = nums1.size();  //2
-        int n = nums2.size();  //1
-        int i=0,j=0,k=0;
+        int m = nums1.size();  // Length = 2
+        int n = nums2.size();  //Length = 1
+        int i=0,j=0,k=0;  //
         vector<int> nums3(m + n);
         while (i<m && j <n)   //By bruteforce Algorithm
         {
@@ -21,10 +21,6 @@ public:
         while (j < n){
             nums3[k++] = nums2[j++];
         }
-        // for(int p=0;p<n;p++){
-        //     cout<<nums3[p]<<" ";
-
-        // }
         int total=(m+n);
         double median=0.0;
         if(total%2==0){
