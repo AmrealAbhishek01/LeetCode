@@ -1,3 +1,8 @@
+
+// Kadane's Algorithm for Maximum Subarray Sum (Dynamic Programming)
+// Time Complexity: O(n) Space Complexity: O(1)  (Optimized)
+// Time Complexity: O(n) Space Complexity: O(n)  (Brute Force)
+
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {     // Nums = [-2,1,-3,4,-1,2,1,-5,4]
