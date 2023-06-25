@@ -4,8 +4,8 @@ public:
 
         int m = nums1.size();  // Length = 2
         int n = nums2.size();  //Length = 1
-        int i=0,j=0,k=0;  //
-        vector<int> nums3(m + n);
+        int i=0,j=0,k=0;  // 
+        vector<int> nums3(m + n); // Create a vector of size (nums1 + nums2)
         while (i<m && j <n)   //By bruteforce Algorithm
         {
             if (nums1[i] < nums2[j]){
